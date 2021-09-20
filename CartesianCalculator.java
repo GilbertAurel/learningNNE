@@ -11,8 +11,11 @@ public class CartesianCalculator {
     this.y2 = y2;
   }
 
-  public int getLength(){
-    // hitung
-    return 0;
+  public double getLength(){
+    double x = x2 - x1;
+    double y = y2 - y1;
+
+    double length = Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
+    return length;
   }
 }
