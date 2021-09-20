@@ -1,6 +1,6 @@
 ## Problem statement
 Given 2 coordinates based on cartesian coordinate. System will calculate the length between both coordinates and return it as a value. The result must be in whole number. 
-
+s
 ## Prerequisite for the code
 1. Java latest JDK
 2. JUnit for testing
